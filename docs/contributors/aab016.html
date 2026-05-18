@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aab016 -> Sporty Computer Science Teacher</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .name {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            font-size: 1.3em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .bio {
+            font-size: 1.1em;
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .achievements-section {
+            margin-top: 30px;
+        }
+
+        .achievements-title {
+            font-size: 1.8em;
+            color: #667eea;
+            margin-bottom: 25px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .achievements-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .achievement {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .achievement:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+        }
+
+        .achievement::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50px;
+            height: 50px;
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 50%;
+            transform: translate(25%, -25%);
+        }
+
+        .achievement-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .achievement-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .achievement-description {
+            color: #666;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+
+        .footer {
+            background: #f5f7fa;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: #764ba2;
+        }
+
+        @media (max-width: 600px) {
+            .name {
+                font-size: 2em;
+            }
+
+            .achievements-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .profile-pic {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="aab016.profile.jpg" alt="aab016 Profile Picture" class="profile-pic">
+            <h1 class="name">aab016</h1>
+            <p class="title">🚴 Sporty Computer Science Lab Teacher 🏔️</p>
+        </div>
+
+        <div class="content">
+            <p class="bio">
+                "Where code meets mountains, and algorithms meet adventure!"
+            </p>
+
+            <div class="achievements-section">
+                <h2 class="achievements-title">🏆 Notable Achievements</h2>
+
+                <div class="achievements-grid">
+                    <div class="achievement">
+                        <div class="achievement-icon">🚴</div>
+                        <div class="achievement-title">Milano-Genova by bike</div>
+                        <div class="achievement-description">
+                            Completed the epic 180km journey from Milano to Genova entirely by bike in 10h: proving that endurance is not just for CPUs!
+                        </div>
+                    </div>
+
+                    <div class="achievement">
+                        <div class="achievement-icon">⛷️</div>
+                        <div class="achievement-title">Cervinia-Breithorn no-lift</div>
+                        <div class="achievement-description">
+                            Conquered the Breithorn skialp ascent and descent in 8h without using any ski lifts from Cervinia: pure human power over 2100m of ascent!
+                        </div>
+                    </div>
+
+                    <div class="achievement">
+                        <div class="achievement-icon">🚵</div>
+                        <div class="achievement-title">"Via degli Dei" by MTB</div>
+                        <div class="achievement-description">
+                            Tackled the infamous "Via degli Dei" hike track from Bologna to Firenze in 14h: legendary 127km trail with 3250m of ascent done in legend time!
+                        </div>
+                    </div>
+
+                    <div class="achievement">
+                        <div class="achievement-icon">📚</div>
+                        <div class="achievement-title">Book Author</div>
+                        <div class="achievement-description">
+                            Authored 3 comprehensive books about Bitcoin: sharing knowledge about blockchain technology with the world.
+                        </div>
+                    </div>
+
+                    <div class="achievement">
+                        <div class="achievement-icon">🛼</div>
+                        <div class="achievement-title">Roller Skating</div>
+                        <div class="achievement-description">
+                            Achieved a personal record of 32km on inline roller skates: combining grace with speed on wheels!
+                        </div>
+                    </div>
+
+                    <div class="achievement">
+                        <div class="achievement-icon">🏔️</div>
+                        <div class="achievement-title">Alpine Summits of my Life</div>
+                        <div class="achievement-description">
+                            Reached 4000m+ Alpine peaks 6 times: an incredible mountaineering accomplishment that speaks to determination and passion.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Teaching Philosophy:</strong> "Breaking barriers one (lab) session at a time, in the classroom and on the trails."</p>
+            <a href="../index.html" class="back-link">← Back to Contributors</a>
+        </div>
+    </div>
+</body>
+</html>
