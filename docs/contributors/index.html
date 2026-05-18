@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contributors - Wall of Fame</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 60px;
+        }
+
+        .header h1 {
+            font-size: 3.5em;
+            margin-bottom: 15px;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        .contributors-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .contributor-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contributor-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            margin-bottom: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .nickname {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 8px;
+        }
+
+        .card-body {
+            padding: 30px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .motto {
+            font-size: 1.1em;
+            color: #333;
+            text-align: center;
+            line-height: 1.6;
+            font-style: italic;
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .back-to-projects {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: opacity 0.3s ease;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .back-link:hover {
+            opacity: 0.8;
+        }
+
+        .empty-state {
+            text-align: center;
+            color: white;
+            padding: 60px 20px;
+            font-size: 1.3em;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5em;
+            }
+
+            .contributors-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .avatar {
+                width: 100px;
+                height: 100px;
+            }
+
+            .nickname {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌟 Wall of Fame 🌟</h1>
+            <p>Meet the talented contributors making this project amazing</p>
+        </div>
+
+        <div class="contributors-grid">
+            <!-- Contributor: aab016 -->
+            <a href="aab016.html" style="text-decoration: none; color: inherit;">
+                <div class="contributor-card">
+                    <div class="card-header">
+                        <img src="aab016.profile.jpg" alt="aab016 Avatar" class="avatar">
+                        <h2 class="nickname">aab016</h2>
+                    </div>
+                    <div class="card-body">
+                        <p class="motto">Where code meets mountains, and algorithms meet adventure!</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- You: Call to Action -->
+            <a href="https://github.com/aab016/studious-guide/blob/main/CONTRIBUTING.md" style="text-decoration: none; color: inherit;">
+                <div class="contributor-card">
+                    <div class="card-header">
+                        <img src="you.profile.jpg" alt="an Avatar" class="avatar">
+                        <h2 class="nickname">You</h2>
+                    </div>
+                    <div class="card-body">
+                        <p class="motto">Join us and turn your teaching ideas into metaverse experience!!</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Add more contributors here -->
+            <!-- Template for new contributors:
+            <a href="[username].html" style="text-decoration: none; color: inherit;">
+                <div class="contributor-card">
+                    <div class="card-header">
+                        <img src="[username].profile.jpg" alt="[username] Avatar" class="avatar">
+                        <h2 class="nickname">[username]</h2>
+                        <div class="title-badge">[title/role]</div>
+                    </div>
+                    <div class="card-body">
+                        <p class="motto">"[motto]"</p>
+                    </div>
+                </div>
+            </a>
+            -->
+        </div>
+
+        <div class="back-to-projects">
+            <a href="../index.html" class="back-link">← Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
