@@ -3,7 +3,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ritwickdey.LiveServer"
+				"ritwickdey.LiveServer",
+				"github.vscode-github-actions"
 			]
 		}
 	},
