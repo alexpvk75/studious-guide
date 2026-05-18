@@ -2,4 +2,4 @@ WIP!
 
 If you know how to work with GitHub PR flow go for it.
 
-Otherwise, open an issue: https://github.com/aab016/studious-guide/issues/new
+Otherwise, open an issue: https://github.com/aab016/studious-guide/issues/new to contact the team of "Metaverse @ School".
