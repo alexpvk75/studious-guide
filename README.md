@@ -27,3 +27,9 @@ https://github.com/Mathics3/mathics-threejs-backend
 Demo three.js a tema matematico/trigonometrico.
 - https://threejs.org/examples/webgl_math_orientation_transform.html
 - https://threejs.org/examples/webgl_math_obb.html
+
+## TODO
+1. login google che chiede permessi drive/classroom
+2. pulsante in ogni pagina VR che permette di fare screenshoot e condividerlo su classroom/drive
+3. capire se si può sfruttare la cloche/joystick per muoversi nello spazio invece che cliccare le frecce di movimento
+4. analytics senza necessità di cookie banner e con dati in eu o self hosted https://github.com/plausible/community-edition/
