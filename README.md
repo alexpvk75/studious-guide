@@ -7,7 +7,7 @@ Il progetto è portato avanti dall'IIS G.L. Lagrange per sopperrire alla mancanz
 
 Per accedere alle applicazioni disponibili aprire il seguente link nel visore.
 
-https://aab016.github.io/studious-guide/homexr.html
+https://aab016.github.io/studious-guide/
 
 oppure
 
