@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aab016.github.io/studious-guide/sitemap.xml
