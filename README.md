@@ -13,6 +13,12 @@ oppure
 
 https://bit.ly/iislagrange
 
+### WebXR e PWA
+
+https://developers.meta.com/horizon/documentation/web/webxr-overview/
+
+https://developers.meta.com/horizon/documentation/web/pwa-overview/
+
 ## Progetti esterni dai quali abbiamo tratto ispirazione
 
 Mostra i lanci dei dati in 3D e il conteggio dei numeri estratti.
