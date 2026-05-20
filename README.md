@@ -19,6 +19,10 @@ https://developers.meta.com/horizon/documentation/web/webxr-overview/
 
 https://developers.meta.com/horizon/documentation/web/pwa-overview/
 
+https://developers.meta.com/horizon/documentation/web/web-launch/
+
+https://www.oculus.com/open_url/?url=https://aab016.github.io/studious-guide/
+
 ## Progetti esterni dai quali abbiamo tratto ispirazione
 
 Mostra i lanci dei dati in 3D e il conteggio dei numeri estratti.
